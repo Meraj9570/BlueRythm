@@ -162,6 +162,7 @@
             background-image: linear-gradient(to top, #030099 0%, #ffffff 100%);
             flex-basis: 100%;
             padding: 0px;
+            height: 610px;
         }
         
         .home .content span {
@@ -473,6 +474,8 @@
             .home {
                 justify-content: center;
                 background-position: left;
+                width: auto;
+                height: auto;
             }
             .home .content {
                 width: 120%;
@@ -504,5 +507,22 @@
         @media (max-width:450px) {
             html {
                 font-size: 50%;
+            }
+        }
+        
+        @media (max-width:520px) {
+            .home {
+                justify-content: center;
+                background-position: left;
+                width: auto;
+                height: auto;
+            }
+            .home .content {
+                width: 120%;
+                height: auto;
+            }
+            .home .content .design {
+                width: 150%;
+                height: auto;
             }
         }
